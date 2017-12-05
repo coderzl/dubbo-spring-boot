@@ -3,7 +3,7 @@ dubbo:
   port: 11912
   consumer-trigger: true
   group: zl
-  registry-address: zookeeper://10.10.188.100:2181
+  registry-address: zookeeper://
   application-name: ll
 server:
   port: 8090

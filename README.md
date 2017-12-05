@@ -1,1 +1,1 @@
-# dubbo-spring-boot
+# dubbo-spring-boot-starter
