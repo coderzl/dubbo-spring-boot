@@ -1,0 +1,7 @@
+dubbo:
+  host: 127.0.0.1
+  port: 11911
+  provider-trigger: true
+  group: zl
+  registry-address: zookeeper://10.10.188.100:2181
+  application-name: z
