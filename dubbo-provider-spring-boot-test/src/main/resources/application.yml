@@ -4,4 +4,4 @@ dubbo:
   provider-trigger: true
   group: zl
   registry-address: zookeeper://
-  application-name: z
+  application-name: dubbo-provider

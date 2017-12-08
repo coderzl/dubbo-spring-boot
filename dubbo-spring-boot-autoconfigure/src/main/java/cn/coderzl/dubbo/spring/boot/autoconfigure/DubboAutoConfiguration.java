@@ -1,6 +1,7 @@
 package cn.coderzl.dubbo.spring.boot.autoconfigure;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
+import com.alibaba.dubbo.config.MonitorConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import org.slf4j.Logger;
@@ -63,6 +64,14 @@ public class DubboAutoConfiguration {
         protocolConfig.setHost(dubboProperties.getHost());
         protocolConfig.setPort(dubboProperties.getPort());
         return protocolConfig;
+    }
+
+    @Bean
+    @ConditionalOnMissingBean
+    public MonitorConfig getMonitorConfig(){
+        MonitorConfig monitorConfig = new MonitorConfig();
+        monitorConfig.setProtocol("registry");
+        return monitorConfig;
     }
 
 }

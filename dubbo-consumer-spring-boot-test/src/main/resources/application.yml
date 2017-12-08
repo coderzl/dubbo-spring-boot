@@ -4,6 +4,6 @@ dubbo:
   consumer-trigger: true
   group: zl
   registry-address: zookeeper://
-  application-name: ll
+  application-name: dubbo-provider
 server:
-  port: 8090
+  port: 8099

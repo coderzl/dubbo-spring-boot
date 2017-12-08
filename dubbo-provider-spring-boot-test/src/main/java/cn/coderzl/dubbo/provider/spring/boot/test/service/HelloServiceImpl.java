@@ -3,8 +3,6 @@ package cn.coderzl.dubbo.provider.spring.boot.test.service;
 import cn.coderzl.dubbo.api.spring.boot.test.HelloService;
 import com.alibaba.dubbo.config.annotation.Service;
 
-import javax.annotation.PostConstruct;
-
 /**
  * <p> dubbo接口实现 </p>
  *
@@ -22,8 +20,4 @@ public class HelloServiceImpl implements HelloService {
         return name + ": Hello!";
     }
 
-    @PostConstruct
-    private void init(){
-        System.err.println("dubbo实现被初始化");
-    }
 }

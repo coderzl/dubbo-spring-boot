@@ -1,4 +1,4 @@
-package cn.coderzl.dubbo.spring.boot.test;
+package cn.coderzl.dubbo.consumer.spring.boot.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

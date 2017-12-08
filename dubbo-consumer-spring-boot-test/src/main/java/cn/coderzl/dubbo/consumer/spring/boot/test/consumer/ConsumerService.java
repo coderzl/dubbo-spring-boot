@@ -1,4 +1,4 @@
-package cn.coderzl.dubbo.spring.boot.test.consumer;
+package cn.coderzl.dubbo.consumer.spring.boot.test.consumer;
 
 import cn.coderzl.dubbo.api.spring.boot.test.HelloService;
 import com.alibaba.dubbo.config.annotation.Reference;
